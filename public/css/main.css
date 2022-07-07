@@ -1,0 +1,339 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.container-fluid{
+    margin-top: 100px;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    color: #fff;
+    padding: 0 21px;
+    font-style: italic;
+    transition: 0.4s;
+    font-size: 0.9em;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+    color: #5fc44d;
+}
+.header{
+    background-image: url(https://template63454.motopreview.com/mt-demo/63400/63454/mt-content/uploads/2017/05/mt-0966-header-bg.jpg);
+    background-size: cover;
+    background-position: top;
+}
+.text-header{
+    text-align: center;
+    color: #fff;
+    margin-top: 220px;  
+}
+.text-header-1{
+    letter-spacing: 1ch;
+    font-size: 0.8em;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+}
+.text-header-2 h1{
+    font-size: 5em;
+    font-family: 'Oswald', sans-serif;
+}
+.text-header-3{
+    letter-spacing: 0.1ch;
+    margin-bottom: 65px;
+}
+.button-header{
+    padding-bottom: 280px;
+}
+.button-header a{
+    text-decoration: none;
+    color: #fff;
+    padding: 18px 35px;
+    border: 2px solid #fff;
+    font-style: italic;
+    transition: 0.3s;
+    font-weight: 550;
+}
+.button-header a:hover{
+    background-color: rgb(197, 195, 195);
+    border-color: rgb(197, 195, 195);
+}
+.team{
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: 1px;
+    font-style: normal;
+}
+.team h3{
+    display: inline-block;
+    padding: 0 20px;
+}
+.team p{
+    letter-spacing: 0.7ch;
+    padding: 0 20px;
+    font-size: 50px;
+    font-weight: 500;
+    font-weight: bold;
+}
+.team p span{
+    color: #ababab;
+}
+.team1{
+    text-align: right;
+}
+.team2{
+    text-align: left;
+}
+.style{
+    display: inline-block;
+}
+.date-and-stadium{
+    text-align: center;
+    margin-top: 20px;
+    color: #888888;
+}
+.date-and-stadium .stadium{
+    margin-left: 60px;
+}
+.btn-view{
+    text-align: center;
+    margin-top: 40px;
+}
+.btn-view a{
+    text-decoration: none;
+    color: #5fc44d;
+    font-style: italic;
+    font-weight: bold;
+    transition: 0.4s;
+}
+.btn-view a:hover{
+    color: #000;
+}
+.cup{
+    text-align: left;
+    margin-top: 100px;
+    background-image: url(https://template63454.motopreview.com/mt-demo/63400/63454/mt-content/uploads/2017/05/mt-0966-content-bg03.jpg);
+    background-size: cover;
+    background-position: top;
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+    padding-top: 180px;
+    padding-bottom: 130px;
+}
+.button-cup a{
+    text-decoration: none;
+    color: #fff;
+    padding: 17px 40px;
+    border: 2px solid #fff;
+    font-style: italic;
+    transition: 0.3s;
+    font-weight: 550;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 0.9em;
+}
+.button-cup a:hover{
+    background-color: rgb(197, 195, 195);
+    border-color: rgb(197, 195, 195);
+}
+.text-cup h3{ 
+    padding-bottom: 30px;
+}
+.text-cup p{
+    margin-bottom: 50px;
+    color: #ababab;
+    font-family: 'Open Sans', sans-serif;
+}
+.title-player{
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Oswald', sans-serif;
+}
+.club-player{
+    margin-top: 100px;
+}
+.player{
+    text-align: center;
+}
+.info-player{
+    margin-top: 30px;
+}
+.player .info-player a{
+    text-decoration: none;
+    font-size: 1.5em;
+    color: #000;
+    font-family: 'Ubuntu', sans-serif;
+}
+.player .info-player h5{
+    font-size: 1em;
+    font-style: italic;
+    margin-bottom: 30px;
+    color: #888888;
+}
+.player .info-player p{
+    color: #888888;
+    margin-bottom: 50px;
+}
+.video-football{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 220px;
+    padding-bottom: 200px;
+    background-image: url(https://template63454.motopreview.com/mt-demo/63400/63454/mt-content/uploads/2017/05/mt-0966-gallery-img06-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+    text-align: center;
+    font-size: 1.4em;
+    max-height: 620px;
+    margin-bottom: 100px;
+}
+.shape{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #5fc44d;
+    border-radius: 50%;
+    border-color: #5fc44d;
+}
+.triangle{
+    width: 25px;
+    height: 27px;
+    background: #fff;
+    clip-path: polygon(0 0, 100% 50%, 0 100%);
+    margin-left: 5px;
+    transition: 0.4s;
+}
+.shape:hover .triangle{
+    background-color: #000;
+}
+.img-gallery{
+    margin-bottom: 20px;
+}
+.statistical{
+    margin-top: 130px;
+    padding-top: 190px;
+    padding-bottom: 190px;
+    margin-bottom: 150px;
+    background-image: url(https://template63454.motopreview.com/mt-demo/63400/63454/mt-content/uploads/2017/05/mt-0966-content-bg02.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-align: center;
+}
+.statistical-content{
+    margin-bottom: 50px;
+}
+.number{
+    font-size: 4em;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+.statistical-name{
+    font-size: 0.8em;
+    font-style: italic;
+}
+.latestnews{
+    text-align: center;
+}
+.title-latestnews{
+    font-size: 1.9em;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 50px;
+}
+.latestnews-date{
+    margin-top: 35px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    color: #888888;
+    font-weight: 600;
+    font-size: 0.9em;
+}
+.latestnews-content-title{
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-size: 1.4em;
+    text-decoration: none;
+    transition: 0.4s;
+    color: #000;
+}
+.latestnews-content-title:hover{
+    color: #5fc44d;
+}
+.latestnews-content p{
+    margin-top: 30px;
+    font-family: 'Open Sans', sans-serif;
+    color: #ababab;
+    font-weight: 600;
+    margin-bottom: 160px;
+}
+.logo-bottom{
+    text-align: center;
+    background-color: #5fc44d;
+    padding: 80px 0;
+}
+.footer{
+    background-color: rgb(11, 7, 25);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(207,207,207,0.4);
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.footer .logo img{
+    width: 100px;
+    margin-bottom: 25px;
+}
+.app{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.shape-icon a{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin: 0 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    transition: 0.4s;
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+.footer p{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.footer p a{
+    text-decoration: none;
+    color: rgba(207,207,207,0.4);
+    transition: 0.4s;
+}
+.footer p a:hover{
+    color: #5fc44d;
+}
+.shape-icon:hover a{
+    color: #5fc44d;
+}
