@@ -28,6 +28,7 @@ body{
     background-image: url(https://template63454.motopreview.com/mt-demo/63400/63454/mt-content/uploads/2017/05/mt-0966-header-bg.jpg);
     background-size: cover;
     background-position: top;
+    width: 100%;
 }
 .text-header{
     text-align: center;
@@ -122,10 +123,12 @@ body{
     background-image: url(https://template63454.motopreview.com/mt-demo/63400/63454/mt-content/uploads/2017/05/mt-0966-content-bg03.jpg);
     background-size: cover;
     background-position: top;
+    background-repeat: no-repeat;
     font-family: 'Oswald', sans-serif;
     color: #fff;
-    padding-top: 180px;
-    padding-bottom: 130px;
+    padding-top: 30px;
+    padding-bottom: 145px;
+    background-position-y: -55px;
 }
 .button-cup a{
     text-decoration: none;
@@ -186,8 +189,8 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 220px;
-    padding-bottom: 200px;
+    padding-top: 200px;
+    padding-bottom: 220px;
     background-image: url(https://template63454.motopreview.com/mt-demo/63400/63454/mt-content/uploads/2017/05/mt-0966-gallery-img06-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -207,7 +210,7 @@ body{
     align-items: center;
     background: #5fc44d;
     border-radius: 50%;
-    border-color: #5fc44d;
+    border-color: transparent;
 }
 .triangle{
     width: 25px;
@@ -225,8 +228,8 @@ body{
 }
 .statistical{
     margin-top: 130px;
-    padding-top: 190px;
-    padding-bottom: 190px;
+    padding-top: 120px;
+    padding-bottom: 80px;
     margin-bottom: 150px;
     background-image: url(https://template63454.motopreview.com/mt-demo/63400/63454/mt-content/uploads/2017/05/mt-0966-content-bg02.jpg);
     background-size: cover;
@@ -250,6 +253,7 @@ body{
 }
 .latestnews{
     text-align: center;
+    margin-bottom: 100px;
 }
 .title-latestnews{
     font-size: 1.9em;
@@ -280,12 +284,13 @@ body{
     font-family: 'Open Sans', sans-serif;
     color: #ababab;
     font-weight: 600;
-    margin-bottom: 160px;
+    margin-bottom: 50px;
 }
 .logo-bottom{
     text-align: center;
     background-color: #5fc44d;
-    padding: 80px 0;
+    padding-top: 100px;
+    padding-bottom: 60px;
 }
 .footer{
     background-color: rgb(11, 7, 25);
@@ -337,3 +342,70 @@ body{
 .shape-icon:hover a{
     color: #5fc44d;
 }
+.button-phone{
+    width: 78px;
+    height: 78px;
+    color: #5fc44d;
+    border-color: transparent;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 35px;
+    left: 35px;
+    font-size: 2.3em;
+    transition: 0.4s;
+}
+.button-phone:hover{
+    color: #80e36f;
+}
+@media screen and (max-width: 1023px){
+    .video-football{
+        background-attachment: unset;
+    }
+    .statistical{
+        background-attachment: unset;
+    }
+}
+@media screen and (max-width: 767px)
+{
+    .button-phone{
+        bottom: 10px;
+        left: 10px;
+        width: 60px;
+        height: 60px;
+        font-size: 1.9em;
+    }
+    .shape{
+        margin-top: 70px;
+        width: 20px;
+        height: 70px;
+        padding: 30px 40px;
+    }
+    .triangle{
+        padding: 5px 10px;
+    }
+    .cup{
+        background-position-y: -30px;
+    }
+    .text-header-1 {
+        font-size: 0.7em;
+    }
+    .text-header-2 h1{
+        font-size: 4em;
+    }
+}
+@media screen and (max-width: 420px) 
+{
+    .button-phone{
+        bottom: 100px;
+    }
+    .text-header-1 {
+        font-size: 0.6em;
+    }
+    .text-header-2 h1{
+        font-size: 3em;
+    }
+    .date-and-stadium{
+        font-size: 0.75em;
+    }
+}
+
