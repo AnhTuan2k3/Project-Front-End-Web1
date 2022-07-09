@@ -382,8 +382,8 @@ body{
 @media screen and (max-width: 767px)
 {
     .back-header a{
-        bottom: 5px;
-        right: 10px;
+        bottom: 20px;
+        right: 20px;
     }
     .button-phone{
         bottom: 10px;
