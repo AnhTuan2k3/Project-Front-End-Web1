@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body{
     font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
@@ -293,7 +294,7 @@ body{
     padding-bottom: 60px;
 }
 .footer{
-    background-color: rgb(11, 7, 25);
+    background-color: #12182b;
     color: #fff;
     display: flex;
     flex-direction: column;
@@ -357,6 +358,19 @@ body{
 .button-phone:hover{
     color: #80e36f;
 }
+.back-header a{
+    color: #5fc44d;
+    border-color: transparent;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 35px;
+    right: 35px;
+    font-size: 2.3em;
+    transition: 0.4s;
+}
+.back-header a:hover{
+    color: #27304b;
+}
 @media screen and (max-width: 1023px){
     .video-football{
         background-attachment: unset;
@@ -367,6 +381,10 @@ body{
 }
 @media screen and (max-width: 767px)
 {
+    .back-header a{
+        bottom: 5px;
+        right: 10px;
+    }
     .button-phone{
         bottom: 10px;
         left: 10px;
@@ -375,10 +393,9 @@ body{
         font-size: 1.9em;
     }
     .shape{
-        margin-top: 70px;
         width: 20px;
         height: 70px;
-        padding: 30px 40px;
+        padding: 30px 35px;
     }
     .triangle{
         padding: 5px 10px;
@@ -405,7 +422,7 @@ body{
         font-size: 3em;
     }
     .date-and-stadium{
-        font-size: 0.75em;
+        font-size: 0.8em;
     }
 }
 
